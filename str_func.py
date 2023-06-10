@@ -9,4 +9,4 @@ def words_to_capital(phrase: str):
     words_in_list = phrase.split()
     for word in words_in_list:
         result.append(word.capitalize())
-    return result
+    return ' '.join(result)
